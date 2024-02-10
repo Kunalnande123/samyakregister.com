@@ -1,0 +1,61 @@
+@CHARSET "ISO-8859-1";
+{
+padding: 0;
+margin: 0;
+font-family:sans-serif;
+}
+
+body
+{
+	background: url("IMG20231211131109.jpg") no-repeat;
+	background:-size: cover;
+	color: #fff;
+}
+
+.Sign-in
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 300px;
+}
+
+.Sign-in h1
+{
+	font-size: 30px;
+	text-align: center;
+	background-color: black;
+	margin: 10px 0;
+	
+}
+
+.Sign-in p
+{
+	font-size: 20px;
+	margin: 5px 0;
+	border: 0;
+	color: black
+}
+
+.Sign-in input
+{
+		font-size: 15px;
+	padding: 10px 5px;
+	width: 100%;
+	border: 10;
+	border-radius: 5px;
+	outline: none;
+}
+
+.Sign-in button
+{
+	font-size: 15px;
+	font-weight: bold;
+	margin: 15px 0;
+	padding: 5px 5px;
+	width: 100%;
+	border: 10;
+	border-radius: 20px;
+	background-color: #fff;
+}
